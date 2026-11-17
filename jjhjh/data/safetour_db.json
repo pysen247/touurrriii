@@ -1,0 +1,598 @@
+{
+  "tourists": {
+    "user_tourist": {
+      "id": "user_tourist",
+      "email": "tourist@safetour.com",
+      "passwordHash": "password123",
+      "role": "tourist",
+      "profile": {
+        "name": "Harsh Kumar",
+        "email": "tourist@safetour.com",
+        "nationality": "Indian",
+        "passportNumber": "Z98745632",
+        "emergencyContactName": "Aarav Kumar (Brother)",
+        "emergencyContactPhone": "+91 98765 43210",
+        "medicalConditions": "Mild Asthma (Carries Inhaler)",
+        "bloodType": "O-Positive",
+        "preferredLanguages": [
+          "English",
+          "Hindi",
+          "Spanish"
+        ],
+        "savedTrips": [
+          "Paris Safety Trip 2026",
+          "Mumbai Monsoon Adventure"
+        ],
+        "achievements": [
+          "Certified Safe Traveler",
+          "Hidden Gem Explorer",
+          "First SOS Responder Hero"
+        ],
+        "qrPassCode": "PASS-7729-SAFE",
+        "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&q=80&w=200",
+        "lastKnownLocation": {
+          "lat": 18.492148289149508,
+          "lng": 74.02114675866947,
+          "timestamp": "2026-09-08T14:14:56.221Z",
+          "zoneName": "Monitored City Zone",
+          "riskLevel": "neutral"
+        },
+        "currentSafetyScore": 88
+      },
+      "bookings": [
+        {
+          "id": "b1",
+          "title": "Grand Hyatt Regency Paris",
+          "type": "hotel",
+          "date": "2026-07-22",
+          "status": "Confirmed",
+          "details": "Deluxe Queen Room - Breakfast included. Checked Safe Zone verification.",
+          "cost": 450
+        },
+        {
+          "id": "b2",
+          "title": "Air France AF257 (DEL - CDG)",
+          "type": "flight",
+          "date": "2026-07-21",
+          "status": "Confirmed",
+          "details": "Economy SafePlus seat. Gate 14B.",
+          "cost": 720
+        }
+      ],
+      "trips": [
+        {
+          "id": "trip-1",
+          "destination": "Paris Smart Safe Tour",
+          "startDate": "2026-07-21",
+          "endDate": "2026-07-26",
+          "budget": 1500,
+          "safetyScore": 89,
+          "safetyMetrics": {
+            "overallScore": 89,
+            "safetyTier": "High Protection",
+            "crimeRiskIndex": "Moderate",
+            "nightSafetyScore": 8.1,
+            "emergencyResponseMins": 4.5,
+            "scamAlertLevel": "Medium",
+            "crowdRisk": "High",
+            "certifiedCheckpointsCount": 24,
+            "healthSanitationScore": 9.4
+          },
+          "aiSummary": "Safe Parisian cultural journey with primary focus on monitored tourist corridors and pickpocket prevention near major heritage monuments.",
+          "expenses": [
+            {
+              "id": "e1",
+              "category": "Hotel",
+              "amount": 450,
+              "description": "Grand Hyatt Safe Stay",
+              "date": "2026-07-22"
+            },
+            {
+              "id": "e2",
+              "category": "Food",
+              "amount": 80,
+              "description": "Bistrot du Coin safe meal",
+              "date": "2026-07-22"
+            },
+            {
+              "id": "e3",
+              "category": "Transit",
+              "amount": 35,
+              "description": "Navigo SafeZone Metro Pass",
+              "date": "2026-07-23"
+            }
+          ],
+          "checklist": [
+            {
+              "id": "c1",
+              "item": "Verify digital tourist ID",
+              "completed": true
+            },
+            {
+              "id": "c2",
+              "item": "Check safety heatmap for route to Louvre",
+              "completed": false
+            },
+            {
+              "id": "c3",
+              "item": "Download local translation packs",
+              "completed": true
+            },
+            {
+              "id": "c4",
+              "item": "Register with local embassy alert system",
+              "completed": true
+            }
+          ],
+          "timeline": [
+            {
+              "id": "i1",
+              "time": "09:00 AM",
+              "activity": "Arrive at CDG Airport & Check In",
+              "location": "CDG Airport Terminal 2",
+              "cost": 50,
+              "notes": "Direct high-speed monitored train connection to city center.",
+              "priceDetails": "RER B Ticket included ($14/person)",
+              "historyInfo": "Major international hub opened in 1974."
+            },
+            {
+              "id": "i2",
+              "time": "02:00 PM",
+              "activity": "Louvre Museum Tour via Safest Route",
+              "location": "Louvre Main Court",
+              "cost": 22,
+              "notes": "Follow marked security lanes; keep bags sealed.",
+              "priceDetails": "Standard entry ticket with fast-track ($22)",
+              "historyInfo": "World largest art museum, former fortress built by Philip II."
+            },
+            {
+              "id": "i3",
+              "time": "07:00 PM",
+              "activity": "Champs-Élysées Illuminated Evening Walk",
+              "location": "Champs-Élysées",
+              "cost": 0,
+              "notes": "Well-lit boulevard under continuous police bike patrol.",
+              "priceDetails": "Free public pedestrian walkway",
+              "historyInfo": "Iconic avenue planned in 1667 by André Le Nôtre."
+            }
+          ]
+        },
+        {
+          "id": "trip-2",
+          "destination": "Tokyo Safe Heritage & Tech Odyssey",
+          "startDate": "2026-08-10",
+          "endDate": "2026-08-16",
+          "budget": 2200,
+          "safetyScore": 98,
+          "safetyMetrics": {
+            "overallScore": 98,
+            "safetyTier": "Ultra-Safe",
+            "crimeRiskIndex": "Minimal",
+            "nightSafetyScore": 9.8,
+            "emergencyResponseMins": 3,
+            "scamAlertLevel": "Low",
+            "crowdRisk": "Moderate",
+            "certifiedCheckpointsCount": 38,
+            "healthSanitationScore": 9.9
+          },
+          "aiSummary": "Ultra-safe Japanese excursion featuring smart Yamanote transit lines, 24/7 Koban police kiosks, and contactless hospitality standards.",
+          "expenses": [
+            {
+              "id": "e201",
+              "category": "Hotel",
+              "amount": 680,
+              "description": "Shinjuku Prince Safe Haven Stay",
+              "date": "2026-08-10"
+            },
+            {
+              "id": "e202",
+              "category": "Transit",
+              "amount": 95,
+              "description": "Suica Smart Rail Pass",
+              "date": "2026-08-11"
+            },
+            {
+              "id": "e203",
+              "category": "Food",
+              "amount": 140,
+              "description": "Ginza certified sushi & ramen",
+              "date": "2026-08-12"
+            }
+          ],
+          "checklist": [
+            {
+              "id": "tc1",
+              "item": "Load digital Suica card for seamless touchless transit",
+              "completed": true
+            },
+            {
+              "id": "tc2",
+              "item": "Save nearest Koban police kiosk location offline",
+              "completed": true
+            },
+            {
+              "id": "tc3",
+              "item": "Verify emergency earthquake protocol app",
+              "completed": true
+            },
+            {
+              "id": "tc4",
+              "item": "Activate international e-SIM data coverage",
+              "completed": false
+            }
+          ],
+          "timeline": [
+            {
+              "id": "ti1",
+              "time": "08:30 AM",
+              "activity": "Senso-ji Temple Morning Reverence & Asakusa Walk",
+              "location": "Asakusa, Taito City, Tokyo",
+              "cost": 0,
+              "notes": "Tokyo oldest temple with dedicated security and medical aid desks.",
+              "priceDetails": "Free shrine grounds entry",
+              "historyInfo": "Founded in 645 AD, sacred temple honoring Kannon."
+            },
+            {
+              "id": "ti2",
+              "time": "01:30 PM",
+              "activity": "Akihabara Tech & Robotics Safe Corridor Tour",
+              "location": "Chiyoda City, Tokyo",
+              "cost": 35,
+              "notes": "Verified transparent electronic retailers and clean pedestrian zones.",
+              "priceDetails": "Tech pavilion passes & VR experience ($35)",
+              "historyInfo": "Evolved from post-war radio parts market to global tech capital."
+            },
+            {
+              "id": "ti3",
+              "time": "06:00 PM",
+              "activity": "Shibuya Sky Observatory & Scramble Crossing",
+              "location": "Shibuya Scramble Square, Tokyo",
+              "cost": 20,
+              "notes": "State of the art crowd management and panoramic skyline security.",
+              "priceDetails": "Observation deck ticket ($20)",
+              "historyInfo": "World busiest pedestrian intersection managed by intelligent traffic systems."
+            }
+          ]
+        },
+        {
+          "id": "trip-3",
+          "destination": "Lonavala & Sahyadri Eco-Retreat",
+          "startDate": "2026-09-05",
+          "endDate": "2026-09-08",
+          "budget": 650,
+          "safetyScore": 94,
+          "safetyMetrics": {
+            "overallScore": 94,
+            "safetyTier": "Ultra-Safe",
+            "crimeRiskIndex": "Low",
+            "nightSafetyScore": 8.7,
+            "emergencyResponseMins": 5.8,
+            "scamAlertLevel": "Low",
+            "crowdRisk": "Low",
+            "certifiedCheckpointsCount": 16,
+            "healthSanitationScore": 9
+          },
+          "aiSummary": "Tranquil monsoon nature getaway with vetted mountain guides, guard-railed cliff trails, and low fraud risk.",
+          "expenses": [
+            {
+              "id": "e301",
+              "category": "Hotel",
+              "amount": 220,
+              "description": "Dukes Retreat Eco Resort",
+              "date": "2026-09-05"
+            },
+            {
+              "id": "e302",
+              "category": "Activities",
+              "amount": 45,
+              "description": "Guided Karla Caves & Fort entry",
+              "date": "2026-09-06"
+            }
+          ],
+          "checklist": [
+            {
+              "id": "lc1",
+              "item": "Check monsoon weather forecast and flash flood alerts",
+              "completed": true
+            },
+            {
+              "id": "lc2",
+              "item": "Confirm certified trail guide credentials",
+              "completed": true
+            },
+            {
+              "id": "lc3",
+              "item": "Pack waterproof emergency first-aid kit",
+              "completed": false
+            }
+          ],
+          "timeline": [
+            {
+              "id": "li1",
+              "time": "07:30 AM",
+              "activity": "Tiger Point Sunrise & Valley Cloud Walk",
+              "location": "Tiger Point, Kurvande, Lonavala",
+              "cost": 0,
+              "notes": "Safety barriers installed along cliffs; active local ranger post.",
+              "priceDetails": "Free viewpoint access ($0)",
+              "historyInfo": "Named for resemblance to a leaping tiger across the Sahyadri valley."
+            },
+            {
+              "id": "li2",
+              "time": "11:00 AM",
+              "activity": "Karla Ancient Rock-Cut Buddhist Caves Tour",
+              "location": "Karli, Maharashtra",
+              "cost": 5,
+              "notes": "ASI protected heritage monument with well-maintained steps.",
+              "priceDetails": "ASI entry ticket ($5)",
+              "historyInfo": "2nd century BC cave complex with grand Chaitya hall."
+            },
+            {
+              "id": "li3",
+              "time": "04:00 PM",
+              "activity": "Bhushi Dam & Lonavala Bazaar Chikki Tasting",
+              "location": "Bhushi Dam Road, Lonavala",
+              "cost": 12,
+              "notes": "Follow designated water safety boundary; certified authentic sweet stalls.",
+              "priceDetails": "Local food & parking ($12)",
+              "historyInfo": "Masonry dam built on the Indrayani River for the Great Indian Peninsula Railway."
+            }
+          ]
+        }
+      ],
+      "lostItems": [
+        {
+          "id": "l1",
+          "userId": "user_tourist",
+          "itemName": "Black Leather Passport Holder",
+          "lastSeenLocation": "Louvre Pyramid Entrance",
+          "description": "Contains Indian passport and travel medical card.",
+          "status": "Lost",
+          "contactInfo": "+91 98765 43210",
+          "timestamp": "2026-07-16T14:15:00Z"
+        }
+      ],
+      "previousLocation": {
+        "lat": 18.492148289149508,
+        "lng": 74.02114675866947,
+        "timestamp": "2026-09-08T14:14:56.220Z"
+      },
+      "lastPingAt": "2026-09-08T14:14:56.221Z"
+    },
+    "user_gov": {
+      "id": "user_gov",
+      "email": "gov@safetour.com",
+      "passwordHash": "password123",
+      "role": "government",
+      "profile": {
+        "name": "Superintendent Dupont",
+        "email": "gov@safetour.com",
+        "nationality": "Indian",
+        "passportNumber": "POLICE-HQ-RAJ-01",
+        "emergencyContactName": "Rajasthan State Command Room",
+        "emergencyContactPhone": "+91-141-2601111",
+        "medicalConditions": "None",
+        "bloodType": "A+",
+        "preferredLanguages": [
+          "English",
+          "Hindi"
+        ],
+        "savedTrips": [],
+        "achievements": [
+          "Command Authority Officer",
+          "Incident Commander"
+        ],
+        "qrPassCode": "GOV-7711-CMD",
+        "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200"
+      },
+      "bookings": [],
+      "trips": [],
+      "lostItems": []
+    },
+    "user_ems": {
+      "id": "user_ems",
+      "email": "ems@safetour.com",
+      "passwordHash": "password123",
+      "role": "emergency",
+      "profile": {
+        "name": "EMS Chief Martin",
+        "email": "ems@safetour.com",
+        "nationality": "Indian",
+        "passportNumber": "EMS-DISPATCH-99",
+        "emergencyContactName": "Central EMS Dispatch",
+        "emergencyContactPhone": "112",
+        "medicalConditions": "None",
+        "bloodType": "B+",
+        "preferredLanguages": [
+          "English",
+          "Hindi"
+        ],
+        "savedTrips": [],
+        "achievements": [
+          "Rapid Responder Medal"
+        ],
+        "qrPassCode": "EMS-0911-RSC",
+        "avatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=200"
+      },
+      "bookings": [],
+      "trips": [],
+      "lostItems": []
+    },
+    "user_admin": {
+      "id": "user_admin",
+      "email": "admin@safetour.com",
+      "passwordHash": "password123",
+      "role": "admin",
+      "profile": {
+        "name": "SIH Central Administrator",
+        "email": "admin@safetour.com",
+        "nationality": "Indian",
+        "passportNumber": "SIH-ADM-25002",
+        "emergencyContactName": "Ministry of Tourism Tech Cell",
+        "emergencyContactPhone": "1800-11-1363",
+        "medicalConditions": "None",
+        "bloodType": "AB+",
+        "preferredLanguages": [
+          "English",
+          "Hindi"
+        ],
+        "savedTrips": [],
+        "achievements": [
+          "System Administrator",
+          "Blockchain Cryptographer"
+        ],
+        "qrPassCode": "ADM-0000-SYS",
+        "avatarUrl": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=200"
+      },
+      "bookings": [],
+      "trips": [],
+      "lostItems": []
+    }
+  },
+  "sos_alerts": [
+    {
+      "id": "anomaly-sim-inact-1788876855551",
+      "userId": "user_tourist_sim",
+      "touristName": "Elena Rostova",
+      "digitalId": "BST-ID-SHA256-49C2B81F90",
+      "caseId": "EFIR-2026-4586",
+      "lat": 28.643,
+      "lng": 77.215,
+      "timestamp": "2026-09-08T13:36:15.551Z",
+      "status": "Pending",
+      "servicesRequired": [
+        "Police"
+      ],
+      "trackingNotes": "🤖 AI-FLAGGED: Tourist inactive in Paharganj & Railway Outer Zone for >38 minutes. Battery dropping, zero movement detected.",
+      "isAnomaly": true,
+      "anomalyType": "inactive_in_high_risk",
+      "anomalyTag": "AI-Detected Anomaly",
+      "riskZoneName": "Paharganj & Railway Outer Zone",
+      "safetyScoreAtTrigger": 36
+    },
+    {
+      "id": "sos-001",
+      "userId": "user_tourist",
+      "touristName": "Harsh Kumar",
+      "digitalId": "BST-ID-SHA256-BE9B7FDCFF",
+      "caseId": "EFIR-2026-7814",
+      "lat": 26.9215,
+      "lng": 75.826,
+      "timestamp": "2026-09-08T13:53:06.866Z",
+      "status": "On-Route",
+      "servicesRequired": [
+        "Police",
+        "Ambulance"
+      ],
+      "trackingNotes": "Dispatched Jaipur Tourist Police PCR Squad #4. ETA 4 mins. Johari Bazaar entry.",
+      "isAnomaly": false,
+      "riskZoneName": "Johari Bazaar & Walled Market",
+      "safetyScoreAtTrigger": 58
+    },
+    {
+      "id": "sos-anomaly-002",
+      "userId": "user_tourist_2",
+      "touristName": "Elena Rostova",
+      "digitalId": "BST-ID-SHA256-49C2B81F90",
+      "caseId": "EFIR-2026-9021",
+      "lat": 28.643,
+      "lng": 77.215,
+      "timestamp": "2026-09-08T13:26:06.866Z",
+      "status": "Pending",
+      "servicesRequired": [
+        "Police"
+      ],
+      "trackingNotes": "AI-FLAGGED: Tourist in Paharganj High-Risk Zone with no GPS heartbeat for >35 mins. Potential tourist distress.",
+      "isAnomaly": true,
+      "anomalyType": "inactive_in_high_risk",
+      "anomalyTag": "AI-Detected Anomaly",
+      "riskZoneName": "Paharganj & Railway Outer Zone",
+      "safetyScoreAtTrigger": 35
+    }
+  ],
+  "incidents": [
+    {
+      "caseId": "EFIR-2026-7814",
+      "sosId": "sos-001",
+      "touristId": "user_tourist",
+      "touristName": "Harsh Kumar",
+      "digitalId": "BST-ID-SHA256-BE9B7FDCFF",
+      "passportOrAadhaar": "IN-784920184",
+      "nationality": "Indian",
+      "emergencyContactPhone": "+91-9876543210",
+      "title": "Attempted Fake Gemstone Extortion & Harassment",
+      "description": "Tourist reported aggressive touts attempting forced purchase of counterfeit gems near Johari Bazaar gate. Rapid PCR dispatched.",
+      "incidentCategory": "scam",
+      "severity": "High",
+      "status": "In Progress",
+      "locationName": "Johari Bazaar Gate 3, Jaipur",
+      "lat": 26.9215,
+      "lng": 75.826,
+      "assignedStation": "Manak Chowk Tourist Police Station",
+      "assignedOfficer": "Inspector V. Rathore (Badge #742)",
+      "timestamp": "2026-09-08T13:53:06.866Z",
+      "officerNotes": "PCR Unit 4 on scene. Statements being recorded from complainant."
+    },
+    {
+      "caseId": "EFIR-2026-9021",
+      "sosId": "sos-anomaly-002",
+      "touristId": "user_tourist_2",
+      "touristName": "Elena Rostova",
+      "digitalId": "BST-ID-SHA256-49C2B81F90",
+      "passportOrAadhaar": "RU-89104726",
+      "nationality": "Russian",
+      "emergencyContactPhone": "+7-916-555-0192",
+      "title": "AI Anomaly: Prolonged High-Risk Zone Inactivity",
+      "description": "System triggered automatic distress flag: tourist last seen entering Paharganj Outer transit zone without movement for 42 minutes.",
+      "incidentCategory": "geofence_distress",
+      "severity": "Critical",
+      "status": "Open",
+      "locationName": "Paharganj Central Alley, New Delhi",
+      "lat": 28.643,
+      "lng": 77.215,
+      "assignedStation": "Paharganj Police Control Room",
+      "assignedOfficer": "SI R. Meena",
+      "timestamp": "2026-09-08T13:26:06.866Z",
+      "isAnomaly": true,
+      "anomalyType": "inactive_in_high_risk"
+    }
+  ],
+  "digital_ids": {
+    "BST-ID-SHA256-BE9B7FDCFF": {
+      "digitalId": "BST-ID-SHA256-BE9B7FDCFF",
+      "signatureHash": "be9b7fdcff8c534dc62420c8b89460f5b52d23fa029a01ac7a8725d0f1631e6b",
+      "touristId": "user_tourist",
+      "touristName": "Harsh Kumar",
+      "passportOrAadhaar": "IN-784920184",
+      "nationality": "Indian",
+      "emergencyContactPhone": "+91-9876543210",
+      "bloodType": "O+",
+      "tripId": "TRIP-RAJASTHAN-2026",
+      "issuedAt": "2026-09-08T14:08:06.865Z",
+      "expiresAt": "2026-10-08T14:08:06.865Z",
+      "isValid": true,
+      "qrPayload": "{\"scheme\":\"BHARAT-SAFE-TOURISM-ID\",\"digitalId\":\"BST-ID-SHA256-BE9B7FDCFF\",\"name\":\"Harsh Kumar\",\"doc\":\"IN-784920184\",\"nat\":\"Indian\",\"tripId\":\"TRIP-RAJASTHAN-2026\",\"issuedAt\":\"2026-09-08T14:08:06.865Z\",\"expiresAt\":\"2026-10-08T14:08:06.865Z\",\"sig\":\"be9b7fdcff8c534dc62420c8b89460f5b52d23fa029a01ac7a8725d0f1631e6b\"}",
+      "verifiedCount": 1,
+      "lastVerifiedAt": "2026-09-08T14:14:09.523Z"
+    },
+    "BST-ID-SHA256-49C2B81F90": {
+      "digitalId": "BST-ID-SHA256-49C2B81F90",
+      "signatureHash": "49c2b81f90a42e18d9f1092a47e62c11a039ef7841cbb1923e4d99812034bc81",
+      "touristId": "user_tourist_2",
+      "touristName": "Elena Rostova",
+      "passportOrAadhaar": "RU-89104726",
+      "nationality": "Russian",
+      "emergencyContactPhone": "+7-916-555-0192",
+      "bloodType": "A-",
+      "tripId": "TRIP-DELHI-AGRA-2026",
+      "issuedAt": "2026-09-05T14:08:06.866Z",
+      "expiresAt": "2026-09-18T14:08:06.866Z",
+      "isValid": true,
+      "qrPayload": "{\"scheme\":\"BHARAT-SAFE-TOURISM-ID\",\"digitalId\":\"BST-ID-SHA256-49C2B81F90\",\"name\":\"Elena Rostova\",\"doc\":\"RU-89104726\",\"tripId\":\"TRIP-DELHI-AGRA-2026\"}",
+      "verifiedCount": 2,
+      "lastVerifiedAt": "2026-09-08T13:08:06.866Z"
+    }
+  },
+  "version": "1.0.0",
+  "lastSavedAt": "2026-09-08T14:58:52.246Z"
+}

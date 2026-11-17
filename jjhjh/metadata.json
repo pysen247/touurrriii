@@ -1,0 +1,6 @@
+{
+  "name": "Bharat Safe Tourism",
+  "description": "An AI-powered smart tourism platform providing safety predictions, dynamic route planning, emergency SOS assistance, multilingual support, and intelligent travel recommendation dashboards.",
+  "requestFramePermissions": ["camera", "microphone", "geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
